@@ -20,6 +20,14 @@
       "dest": "/static/$1"
     },
     {
+      "src": "/media/(.*)",
+      "dest": "/media/$1"
+    },
+    {
+      "src": "/admin(.*)",
+      "dest": "/vercel_app/wsgi.py"
+    },
+    {
       "src": "/(.*)",
       "dest": "/vercel_app/wsgi.py"
     }
