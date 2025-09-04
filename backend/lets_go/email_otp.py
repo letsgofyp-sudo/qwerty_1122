@@ -8,11 +8,11 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load environment variables (optional for security)
-SENDER_EMAIL = os.getenv("SENDER_EMAIL", "letsgofyp@gmail.com")
-SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "odno agow pjzq ldrl")
-SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", 587))
+# Load environment variables for email configuration
+SENDER_EMAIL = os.environ['EMAIL_ADDRESS']
+SENDER_PASSWORD = os.environ['EMAIL_APP_PASSWORD']
+SMTP_SERVER = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
+SMTP_PORT = int(os.getenv('SMTP_PORT', '587'))
 
 
 def send_email_otp(recipient_email: str, otp_code: str) -> bool:

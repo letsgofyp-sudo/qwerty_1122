@@ -5,9 +5,10 @@ from requests.exceptions import HTTPError, Timeout
 import random
 import string
 
-BASE_URL  = os.getenv("TEXTBEE_BASE_URL",  "https://api.textbee.dev")
-API_KEY   = os.getenv("TEXTBEE_API_KEY",   "183bbfc5-b09a-4583-9140-538fb085a631")
-DEVICE_ID = os.getenv("TEXTBEE_DEVICE_ID","680daaeb60ed7610f717bc0e")
+# Load TextBee configuration from environment variables
+BASE_URL = os.environ['TEXTBEE_BASE_URL']
+API_KEY = os.environ['TEXTBEE_API_KEY']
+DEVICE_ID = os.environ['TEXTBEE_DEVICE_ID']
 # Endpoint path template
 
 SEND_SMS_PATH = "/api/v1/gateway/devices/{device_id}/send-sms"
