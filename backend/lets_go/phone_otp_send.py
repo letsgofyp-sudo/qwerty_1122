@@ -23,7 +23,6 @@ except Exception as e:
     TEXTBEE_ENABLED = False
 
 # Endpoint path template
-
 SEND_SMS_PATH = "/api/v1/gateway/devices/{device_id}/send-sms"
 
 def send_phone_otp(phone_number: str, otp_code: str) -> bool:
