@@ -12,6 +12,18 @@
     {
       "src": "staticfiles/**",
       "use": "@vercel/static"
+    },
+    {
+      "src": "static/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "administration/static/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "lets_go/static/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -22,6 +34,10 @@
     {
       "src": "/media/(.*)",
       "dest": "/media/$1"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "/backend/wsgi.py"
     },
     {
       "src": "/(.*)",

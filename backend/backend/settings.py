@@ -197,19 +197,33 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Additional locations of static files
+# Static files configuration for Vercel
 STATICFILES_DIRS = []
 
-# Only try to access directories that exist and are accessible
-for path in [
+# Define possible static file locations
+possible_static_dirs = [
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'administration/static'),
     os.path.join(BASE_DIR, 'lets_go/static'),
-]:
+    os.path.join(BASE_DIR, 'staticfiles'),  # For collected static files
+]
+
+# Only include directories that exist and are accessible
+for path in possible_static_dirs:
     try:
-        if os.path.exists(path):
+        if os.path.exists(path) and os.path.isdir(path):
             STATICFILES_DIRS.append(path)
-    except:
-        pass  # Skip if directory can't be accessed
+    except (OSError, Exception):
+        continue  # Skip if directory can't be accessed
+
+# In production on Vercel, we'll use the staticfiles directory
+if os.environ.get('VERCEL'):
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    STATICFILES_DIRS = [d for d in STATICFILES_DIRS if d != STATIC_ROOT]
+    
+    # Ensure we have at least one directory in STATICFILES_DIRS
+    if not STATICFILES_DIRS and os.path.exists(STATIC_ROOT):
+        STATICFILES_DIRS = [STATIC_ROOT]
 
 # Media files
 MEDIA_URL = '/media/'
