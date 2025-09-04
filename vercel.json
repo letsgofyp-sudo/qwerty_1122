@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/api/vercel_test.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    { "src": "/api/test", "dest": "/backend/api/vercel_test.py" },
+    { "src": "/(.*)", "dest": "/backend/api/vercel_test.py" }
+  ]
+}
