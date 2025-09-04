@@ -1,2 +1,0 @@
-# Required for Vercel Python runtime
-vercel-python==0.0.1
