@@ -2,12 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/api/vercel_test.py",
-      "use": "@vercel/python"
+      "src": "vercel-minimal-test/api/index.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9"
+      }
     }
   ],
   "routes": [
-    { "src": "/api/test", "dest": "/backend/api/vercel_test.py" },
-    { "src": "/(.*)", "dest": "/backend/api/vercel_test.py" }
+    { "src": "/(.*)", "dest": "/vercel-minimal-test/api/index.py" }
   ]
 }
