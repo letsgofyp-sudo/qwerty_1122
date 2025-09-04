@@ -197,15 +197,19 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Additional locations of static files
-STATICFILES_DIRS = [
+STATICFILES_DIRS = []
+
+# Only try to access directories that exist and are accessible
+for path in [
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'administration/static'),
-    # Only include lets_go/static if it exists
-    *([os.path.join(BASE_DIR, 'lets_go/static')] if os.path.exists(os.path.join(BASE_DIR, 'lets_go/static')) else []),
-]
-
-# Ensure the static directory exists
-os.makedirs(os.path.join(BASE_DIR, 'static'), exist_ok=True)
+    os.path.join(BASE_DIR, 'lets_go/static'),
+]:
+    try:
+        if os.path.exists(path):
+            STATICFILES_DIRS.append(path)
+    except:
+        pass  # Skip if directory can't be accessed
 
 # Media files
 MEDIA_URL = '/media/'
