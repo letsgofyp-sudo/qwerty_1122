@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 import os
 from dotenv import load_dotenv
-
+load_dotenv()
 # Load environment variables from .env file
 load_dotenv()
 
@@ -195,7 +195,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+# Additional locations of static files
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'administration/static'),
+    # Only include lets_go/static if it exists
+    *([os.path.join(BASE_DIR, 'lets_go/static')] if os.path.exists(os.path.join(BASE_DIR, 'lets_go/static')) else []),
+]
+
+# Ensure the static directory exists
+os.makedirs(os.path.join(BASE_DIR, 'static'), exist_ok=True)
 
 # Media files
 MEDIA_URL = '/media/'
