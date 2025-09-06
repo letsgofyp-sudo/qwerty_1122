@@ -1,0 +1,269 @@
+ Volume in drive E has no label.
+ Volume Serial Number is 5660-ED20
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend
+
+09/06/2025  10:54 AM    <DIR>          .
+09/06/2025  10:54 AM    <DIR>          ..
+09/04/2025  08:50 PM               682 .env
+09/04/2025  12:17 PM               536 .gitignore
+09/03/2025  04:52 PM    <DIR>          administration
+09/03/2025  04:52 PM    <DIR>          backend
+09/06/2025  10:54 AM                 0 directory.txt
+09/04/2025  09:02 PM    <DIR>          lets_go
+08/17/2025  04:05 PM               685 manage.py
+09/04/2025  03:28 PM             1,311 requirements.txt
+09/06/2025  02:40 AM               289 vercel.json
+               6 File(s)          3,503 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  04:05 PM                66 admin.py
+08/17/2025  04:05 PM               166 apps.py
+09/03/2025  04:52 PM    <DIR>          migrations
+08/17/2025  04:05 PM                60 models.py
+09/03/2025  04:52 PM    <DIR>          static
+09/03/2025  04:52 PM    <DIR>          templates
+08/18/2025  01:28 PM               839 tests.py
+08/17/2025  04:05 PM             1,198 urls.py
+08/17/2025  04:05 PM             8,773 views.py
+08/17/2025  04:05 PM                 0 __init__.py
+09/03/2025  04:52 PM    <DIR>          __pycache__
+               7 File(s)         11,102 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\migrations
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  04:05 PM                 0 __init__.py
+09/03/2025  04:52 PM    <DIR>          __pycache__
+               1 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\migrations\__pycache__
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  05:13 PM               224 __init__.cpython-313.pyc
+               1 File(s)            224 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\static
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+09/03/2025  04:52 PM    <DIR>          administration
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\static\administration
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  04:05 PM             3,823 index.js
+08/17/2025  04:05 PM             1,350 login.css
+08/17/2025  04:05 PM               674 login.js
+08/17/2025  04:05 PM             4,117 style.css
+08/17/2025  04:05 PM               829 users_list.js
+               5 File(s)         10,793 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\templates
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+09/03/2025  04:52 PM    <DIR>          administration
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\templates\administration
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  04:05 PM               267 admin_view.html
+08/17/2025  04:05 PM               852 analytics.html
+08/17/2025  04:05 PM             2,122 index.html
+08/17/2025  04:05 PM             1,289 login.html
+08/17/2025  04:05 PM             1,070 profile.html
+08/17/2025  04:05 PM             1,108 settings.html
+08/17/2025  04:05 PM             3,253 users_detail.html
+08/17/2025  04:05 PM             9,268 users_edit.html
+08/17/2025  04:05 PM               816 users_list.html
+08/17/2025  04:05 PM             5,529 user_add.html
+              10 File(s)         25,574 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration\__pycache__
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  05:13 PM               257 admin.cpython-313.pyc
+08/17/2025  05:13 PM               593 apps.cpython-313.pyc
+08/17/2025  05:13 PM               254 models.cpython-313.pyc
+08/17/2025  05:13 PM             1,584 urls.cpython-313.pyc
+08/17/2025  05:13 PM            12,801 views.cpython-313.pyc
+08/17/2025  05:13 PM               213 __init__.cpython-313.pyc
+               6 File(s)         15,702 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\backend
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  04:05 PM               407 asgi.py
+08/17/2025  04:05 PM             1,939 isrgrootx1.pem
+09/06/2025  02:31 AM             7,047 settings.py
+08/17/2025  04:05 PM               903 urls.py
+09/04/2025  04:18 PM               703 wsgi.py
+08/17/2025  04:05 PM                 0 __init__.py
+09/06/2025  02:30 AM    <DIR>          __pycache__
+               6 File(s)         10,999 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\backend\__pycache__
+
+09/06/2025  02:30 AM    <DIR>          .
+09/06/2025  02:30 AM    <DIR>          ..
+09/06/2025  02:30 AM             4,890 settings.cpython-313.pyc
+08/17/2025  05:13 PM             1,241 urls.cpython-313.pyc
+08/17/2025  05:13 PM               694 wsgi.cpython-313.pyc
+08/17/2025  05:13 PM               206 __init__.cpython-313.pyc
+               4 File(s)          7,031 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go
+
+09/04/2025  09:02 PM    <DIR>          .
+09/04/2025  09:02 PM    <DIR>          ..
+08/17/2025  04:05 PM                66 admin.py
+08/17/2025  04:05 PM               151 apps.py
+09/04/2025  12:17 PM             3,095 email_otp.py
+09/04/2025  12:13 PM               466 email_phone.py
+09/04/2025  08:50 PM    <DIR>          migrations
+09/03/2025  04:52 PM    <DIR>          models
+09/04/2025  03:16 PM             2,461 phone_otp_send.py
+09/03/2025  04:52 PM    <DIR>          services
+09/04/2025  09:02 PM    <DIR>          static
+08/23/2025  03:50 PM    <DIR>          tests
+08/17/2025  04:05 PM                63 tests.py
+08/17/2025  04:05 PM             3,118 urls.py
+09/03/2025  04:52 PM    <DIR>          utils
+09/03/2025  04:28 PM            26,291 views_authentication.py
+08/20/2025  02:19 PM            20,236 views_ridebooking.py
+08/20/2025  02:19 PM            80,288 views_rideposting.py
+09/04/2025  08:50 PM    <DIR>          __pycache__
+              10 File(s)        136,235 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\migrations
+
+09/04/2025  08:50 PM    <DIR>          .
+09/04/2025  08:50 PM    <DIR>          ..
+08/17/2025  04:05 PM             4,513 0001_initial.py
+08/17/2025  04:05 PM             1,612 0002_alter_usersdata_cnic_no_alter_usersdata_gender_and_more.py
+08/17/2025  04:05 PM            32,979 0003_alter_usersdata_phone_no_route_routestop_farematrix_and_more.py
+08/17/2025  04:05 PM             3,542 0004_trip_fare_calculation_trip_total_distance_km_and_more.py
+08/17/2025  04:05 PM               592 0005_trip_gender_preference.py
+08/17/2025  04:05 PM             2,749 0006_add_bargaining_fields.py
+09/04/2025  08:50 PM               553 0007_alter_booking_booking_status.py
+08/17/2025  04:05 PM                 0 __init__.py
+09/04/2025  08:56 PM    <DIR>          __pycache__
+               8 File(s)         46,540 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\migrations\__pycache__
+
+09/04/2025  08:56 PM    <DIR>          .
+09/04/2025  08:56 PM    <DIR>          ..
+08/17/2025  05:13 PM             5,287 0001_initial.cpython-313.pyc
+08/17/2025  05:13 PM             2,141 0002_alter_usersdata_cnic_no_alter_usersdata_gender_and_more.cpython-313.pyc
+08/17/2025  04:05 PM             1,349 0002_usersdata_created_at_usersdata_updated_at_and_more.cpython-313.pyc
+08/17/2025  05:13 PM            33,382 0003_alter_usersdata_phone_no_route_routestop_farematrix_and_more.cpython-313.pyc
+08/17/2025  04:05 PM             1,320 0003_usersdata_accountno_usersdata_accountqr_and_more.cpython-313.pyc
+08/17/2025  04:05 PM             1,465 0004_rename_cnic_image_usersdata_cnic_back_image_and_more.cpython-313.pyc
+08/17/2025  05:13 PM             4,071 0004_trip_fare_calculation_trip_total_distance_km_and_more.cpython-313.pyc
+08/17/2025  05:13 PM             1,048 0005_trip_gender_preference.cpython-313.pyc
+08/17/2025  04:05 PM             3,425 0005_vehicle.cpython-313.pyc
+08/17/2025  05:13 PM             2,699 0006_add_bargaining_fields.cpython-313.pyc
+09/04/2025  08:56 PM               997 0007_alter_booking_booking_status.cpython-313.pyc
+08/17/2025  05:13 PM               217 __init__.cpython-313.pyc
+              12 File(s)         57,401 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\models
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/19/2025  05:17 PM            12,031 models_booking.py
+08/17/2025  04:05 PM            11,163 models_chat.py
+08/17/2025  04:05 PM            10,660 models_payment.py
+08/17/2025  04:05 PM             7,527 models_route.py
+08/20/2025  12:58 PM            14,464 models_trip.py
+08/17/2025  04:05 PM             3,780 models_userdata.py
+08/17/2025  04:05 PM             2,875 models_vehicle.py
+08/17/2025  04:05 PM             9,919 README.md
+08/17/2025  04:05 PM               393 __init__.py
+09/03/2025  04:52 PM    <DIR>          __pycache__
+               9 File(s)         72,812 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\models\__pycache__
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/19/2025  05:17 PM            14,828 models_booking.cpython-313.pyc
+08/17/2025  05:13 PM            15,878 models_chat.cpython-313.pyc
+08/17/2025  05:13 PM            12,111 models_payment.cpython-313.pyc
+08/17/2025  05:13 PM            10,235 models_route.cpython-313.pyc
+08/20/2025  12:58 PM            17,616 models_trip.cpython-313.pyc
+08/17/2025  05:13 PM             4,742 models_userdata.cpython-313.pyc
+08/17/2025  05:13 PM             3,601 models_vehicle.cpython-313.pyc
+08/17/2025  05:13 PM               779 __init__.cpython-313.pyc
+               8 File(s)         79,790 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\services
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+09/03/2025  03:34 PM                 0 seats.py
+               1 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\static
+
+09/04/2025  09:02 PM    <DIR>          .
+09/04/2025  09:02 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\tests
+
+08/23/2025  03:50 PM    <DIR>          .
+08/23/2025  03:50 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\utils
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  04:05 PM             9,244 fare_calculator.py
+08/17/2025  04:05 PM                32 __init__.py
+09/03/2025  04:52 PM    <DIR>          __pycache__
+               2 File(s)          9,276 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\utils\__pycache__
+
+09/03/2025  04:52 PM    <DIR>          .
+09/03/2025  04:52 PM    <DIR>          ..
+08/17/2025  05:13 PM             9,977 fare_calculator.cpython-313.pyc
+08/17/2025  05:13 PM               212 __init__.cpython-313.pyc
+               2 File(s)         10,189 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go\__pycache__
+
+09/04/2025  08:50 PM    <DIR>          .
+09/04/2025  08:50 PM    <DIR>          ..
+08/17/2025  05:13 PM               250 admin.cpython-313.pyc
+08/17/2025  05:13 PM               571 apps.cpython-313.pyc
+09/04/2025  08:50 PM             3,780 email_otp.cpython-313.pyc
+08/17/2025  04:05 PM             2,375 models.cpython-313.pyc
+09/04/2025  08:50 PM             3,076 phone_otp_send.cpython-313.pyc
+08/17/2025  05:13 PM             3,401 urls.cpython-313.pyc
+08/17/2025  04:05 PM            81,095 views.cpython-313.pyc
+09/03/2025  04:28 PM            29,624 views_authentication.cpython-313.pyc
+08/17/2025  04:05 PM            13,920 views_requests_api.cpython-313.pyc
+08/22/2025  08:54 AM            20,082 views_ridebooking.cpython-313.pyc
+08/22/2025  08:54 AM            78,807 views_rideposting.cpython-313.pyc
+08/17/2025  04:05 PM               162 __init__.cpython-313.pyc
+              12 File(s)        237,143 bytes
+
+     Total Files Listed:
+             110 File(s)        734,314 bytes
+              65 Dir(s)  30,266,376,192 bytes free

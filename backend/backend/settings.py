@@ -193,43 +193,24 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
+# settings.py
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# Additional locations of static files
-# Static files configuration for Vercel
+# Add only existing static dirs
 STATICFILES_DIRS = []
-
-# Define possible static file locations
 possible_static_dirs = [
-    os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'administration/static'),
     os.path.join(BASE_DIR, 'lets_go/static'),
-    os.path.join(BASE_DIR, 'staticfiles'),  # For collected static files
 ]
-
-# Only include directories that exist and are accessible
 for path in possible_static_dirs:
-    try:
-        if os.path.exists(path) and os.path.isdir(path):
-            STATICFILES_DIRS.append(path)
-    except (OSError, Exception):
-        continue  # Skip if directory can't be accessed
+    if os.path.exists(path):
+        STATICFILES_DIRS.append(path)
 
-# In production on Vercel, we'll use the staticfiles directory
-if os.environ.get('VERCEL'):
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    STATICFILES_DIRS = [d for d in STATICFILES_DIRS if d != STATIC_ROOT]
-    
-    # Ensure we have at least one directory in STATICFILES_DIRS
-    if not STATICFILES_DIRS and os.path.exists(STATIC_ROOT):
-        STATICFILES_DIRS = [STATIC_ROOT]
-
-# Media files
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# WhiteNoise for production
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
