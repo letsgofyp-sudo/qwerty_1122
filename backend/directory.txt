@@ -3,18 +3,19 @@
 
  Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend
 
-09/06/2025  10:54 AM    <DIR>          .
-09/06/2025  10:54 AM    <DIR>          ..
+09/06/2025  11:39 AM    <DIR>          .
+09/06/2025  11:39 AM    <DIR>          ..
 09/04/2025  08:50 PM               682 .env
-09/04/2025  12:17 PM               536 .gitignore
+09/06/2025  11:34 AM                29 .gitignore
 09/03/2025  04:52 PM    <DIR>          administration
 09/03/2025  04:52 PM    <DIR>          backend
-09/06/2025  10:54 AM                 0 directory.txt
+09/06/2025  11:39 AM                 0 directory.txt
 09/04/2025  09:02 PM    <DIR>          lets_go
 08/17/2025  04:05 PM               685 manage.py
-09/04/2025  03:28 PM             1,311 requirements.txt
-09/06/2025  02:40 AM               289 vercel.json
-               6 File(s)          3,503 bytes
+09/06/2025  11:11 AM             1,330 requirements.txt
+09/06/2025  11:03 AM    <DIR>          staticfiles
+09/06/2025  11:20 AM               528 vercel.json
+               6 File(s)          3,254 bytes
 
  Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\administration
 
@@ -107,22 +108,22 @@
 09/03/2025  04:52 PM    <DIR>          ..
 08/17/2025  04:05 PM               407 asgi.py
 08/17/2025  04:05 PM             1,939 isrgrootx1.pem
-09/06/2025  02:31 AM             7,047 settings.py
+09/06/2025  11:26 AM             4,528 settings.py
 08/17/2025  04:05 PM               903 urls.py
 09/04/2025  04:18 PM               703 wsgi.py
 08/17/2025  04:05 PM                 0 __init__.py
-09/06/2025  02:30 AM    <DIR>          __pycache__
-               6 File(s)         10,999 bytes
+09/06/2025  11:26 AM    <DIR>          __pycache__
+               6 File(s)          8,480 bytes
 
  Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\backend\__pycache__
 
-09/06/2025  02:30 AM    <DIR>          .
-09/06/2025  02:30 AM    <DIR>          ..
-09/06/2025  02:30 AM             4,890 settings.cpython-313.pyc
+09/06/2025  11:26 AM    <DIR>          .
+09/06/2025  11:26 AM    <DIR>          ..
+09/06/2025  11:26 AM             3,987 settings.cpython-313.pyc
 08/17/2025  05:13 PM             1,241 urls.cpython-313.pyc
-08/17/2025  05:13 PM               694 wsgi.cpython-313.pyc
+09/06/2025  11:15 AM             1,011 wsgi.cpython-313.pyc
 08/17/2025  05:13 PM               206 __init__.cpython-313.pyc
-               4 File(s)          7,031 bytes
+               4 File(s)          6,445 bytes
 
  Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\lets_go
 
@@ -264,6 +265,242 @@
 08/17/2025  04:05 PM               162 __init__.cpython-313.pyc
               12 File(s)        237,143 bytes
 
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM    <DIR>          admin
+09/06/2025  11:03 AM    <DIR>          administration
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM    <DIR>          css
+09/06/2025  11:03 AM    <DIR>          img
+09/06/2025  11:03 AM    <DIR>          js
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\css
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             9,185 autocomplete.css
+09/06/2025  11:03 AM            22,120 base.css
+09/06/2025  11:03 AM             6,878 changelists.css
+09/06/2025  11:03 AM             2,808 dark_mode.css
+09/06/2025  11:03 AM               441 dashboard.css
+09/06/2025  11:03 AM             8,525 forms.css
+09/06/2025  11:03 AM               951 login.css
+09/06/2025  11:03 AM             2,810 nav_sidebar.css
+09/06/2025  11:03 AM            16,565 responsive.css
+09/06/2025  11:03 AM             1,991 responsive_rtl.css
+09/06/2025  11:03 AM             4,772 rtl.css
+09/06/2025  11:03 AM               663 unusable_password_field.css
+09/06/2025  11:03 AM    <DIR>          vendor
+09/06/2025  11:03 AM            11,991 widgets.css
+              13 File(s)         89,700 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\css\vendor
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM    <DIR>          select2
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\css\vendor\select2
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             1,124 LICENSE-SELECT2.md
+09/06/2025  11:03 AM            17,358 select2.css
+09/06/2025  11:03 AM            14,966 select2.min.css
+               3 File(s)         33,448 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\img
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             2,455 calendar-icons.svg
+09/06/2025  11:03 AM    <DIR>          gis
+09/06/2025  11:03 AM               331 icon-addlink.svg
+09/06/2025  11:03 AM               504 icon-alert.svg
+09/06/2025  11:03 AM             1,086 icon-calendar.svg
+09/06/2025  11:03 AM               380 icon-changelink.svg
+09/06/2025  11:03 AM               677 icon-clock.svg
+09/06/2025  11:03 AM               392 icon-deletelink.svg
+09/06/2025  11:03 AM               784 icon-hidelink.svg
+09/06/2025  11:03 AM               560 icon-no.svg
+09/06/2025  11:03 AM               655 icon-unknown-alt.svg
+09/06/2025  11:03 AM               655 icon-unknown.svg
+09/06/2025  11:03 AM               581 icon-viewlink.svg
+09/06/2025  11:03 AM               436 icon-yes.svg
+09/06/2025  11:03 AM               537 inline-delete.svg
+09/06/2025  11:03 AM             1,081 LICENSE
+09/06/2025  11:03 AM               321 README.txt
+09/06/2025  11:03 AM               458 search.svg
+09/06/2025  11:03 AM             3,291 selector-icons.svg
+09/06/2025  11:03 AM             1,097 sorting-icons.svg
+09/06/2025  11:03 AM               331 tooltag-add.svg
+09/06/2025  11:03 AM               280 tooltag-arrowright.svg
+              21 File(s)         16,892 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\img\gis
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             1,129 move_vertex_off.svg
+09/06/2025  11:03 AM             1,129 move_vertex_on.svg
+               2 File(s)          2,258 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             8,076 actions.js
+09/06/2025  11:03 AM    <DIR>          admin
+09/06/2025  11:03 AM             1,060 autocomplete.js
+09/06/2025  11:03 AM             9,141 calendar.js
+09/06/2025  11:03 AM               884 cancel.js
+09/06/2025  11:03 AM               606 change_form.js
+09/06/2025  11:03 AM             6,208 core.js
+09/06/2025  11:03 AM               978 filters.js
+09/06/2025  11:03 AM            15,628 inlines.js
+09/06/2025  11:03 AM               347 jquery.init.js
+09/06/2025  11:03 AM             3,063 nav_sidebar.js
+09/06/2025  11:03 AM               532 popup_response.js
+09/06/2025  11:03 AM             1,531 prepopulate.js
+09/06/2025  11:03 AM               586 prepopulate_init.js
+09/06/2025  11:03 AM             4,530 SelectBox.js
+09/06/2025  11:03 AM            15,845 SelectFilter2.js
+09/06/2025  11:03 AM             1,653 theme.js
+09/06/2025  11:03 AM             1,480 unusable_password_field.js
+09/06/2025  11:03 AM             7,887 urlify.js
+09/06/2025  11:03 AM    <DIR>          vendor
+              18 File(s)         80,035 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js\admin
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM            19,319 DateTimeShortcuts.js
+09/06/2025  11:03 AM             9,777 RelatedObjectLookups.js
+               2 File(s)         29,096 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js\vendor
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM    <DIR>          jquery
+09/06/2025  11:03 AM    <DIR>          select2
+09/06/2025  11:03 AM    <DIR>          xregexp
+               0 File(s)              0 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js\vendor\jquery
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM           285,314 jquery.js
+09/06/2025  11:03 AM            87,533 jquery.min.js
+09/06/2025  11:03 AM             1,097 LICENSE.txt
+               3 File(s)        373,944 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js\vendor\select2
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM    <DIR>          i18n
+09/06/2025  11:03 AM             1,124 LICENSE.md
+09/06/2025  11:03 AM           173,566 select2.full.js
+09/06/2025  11:03 AM            79,212 select2.full.min.js
+               3 File(s)        253,902 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js\vendor\select2\i18n
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM               866 af.js
+09/06/2025  11:03 AM               905 ar.js
+09/06/2025  11:03 AM               721 az.js
+09/06/2025  11:03 AM               968 bg.js
+09/06/2025  11:03 AM             1,291 bn.js
+09/06/2025  11:03 AM               965 bs.js
+09/06/2025  11:03 AM               900 ca.js
+09/06/2025  11:03 AM             1,292 cs.js
+09/06/2025  11:03 AM               828 da.js
+09/06/2025  11:03 AM               866 de.js
+09/06/2025  11:03 AM             1,017 dsb.js
+09/06/2025  11:03 AM             1,182 el.js
+09/06/2025  11:03 AM               844 en.js
+09/06/2025  11:03 AM               922 es.js
+09/06/2025  11:03 AM               801 et.js
+09/06/2025  11:03 AM               868 eu.js
+09/06/2025  11:03 AM             1,023 fa.js
+09/06/2025  11:03 AM               803 fi.js
+09/06/2025  11:03 AM               924 fr.js
+09/06/2025  11:03 AM               924 gl.js
+09/06/2025  11:03 AM               984 he.js
+09/06/2025  11:03 AM             1,175 hi.js
+09/06/2025  11:03 AM               852 hr.js
+09/06/2025  11:03 AM             1,018 hsb.js
+09/06/2025  11:03 AM               831 hu.js
+09/06/2025  11:03 AM             1,028 hy.js
+09/06/2025  11:03 AM               768 id.js
+09/06/2025  11:03 AM               807 is.js
+09/06/2025  11:03 AM               897 it.js
+09/06/2025  11:03 AM               862 ja.js
+09/06/2025  11:03 AM             1,195 ka.js
+09/06/2025  11:03 AM             1,088 km.js
+09/06/2025  11:03 AM               855 ko.js
+09/06/2025  11:03 AM               944 lt.js
+09/06/2025  11:03 AM               900 lv.js
+09/06/2025  11:03 AM             1,038 mk.js
+09/06/2025  11:03 AM               811 ms.js
+09/06/2025  11:03 AM               778 nb.js
+09/06/2025  11:03 AM             1,357 ne.js
+09/06/2025  11:03 AM               904 nl.js
+09/06/2025  11:03 AM               947 pl.js
+09/06/2025  11:03 AM             1,049 ps.js
+09/06/2025  11:03 AM               876 pt-BR.js
+09/06/2025  11:03 AM               878 pt.js
+09/06/2025  11:03 AM               938 ro.js
+09/06/2025  11:03 AM             1,171 ru.js
+09/06/2025  11:03 AM             1,306 sk.js
+09/06/2025  11:03 AM               925 sl.js
+09/06/2025  11:03 AM               903 sq.js
+09/06/2025  11:03 AM             1,109 sr-Cyrl.js
+09/06/2025  11:03 AM               980 sr.js
+09/06/2025  11:03 AM               786 sv.js
+09/06/2025  11:03 AM             1,074 th.js
+09/06/2025  11:03 AM               771 tk.js
+09/06/2025  11:03 AM               775 tr.js
+09/06/2025  11:03 AM             1,156 uk.js
+09/06/2025  11:03 AM               796 vi.js
+09/06/2025  11:03 AM               768 zh-CN.js
+09/06/2025  11:03 AM               707 zh-TW.js
+              59 File(s)         55,917 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\admin\js\vendor\xregexp
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             1,106 LICENSE.txt
+09/06/2025  11:03 AM           325,171 xregexp.js
+09/06/2025  11:03 AM           163,184 xregexp.min.js
+               3 File(s)        489,461 bytes
+
+ Directory of E:\one drive\OneDrive - Happy English\course subjects\FYP\qwerty_1122\backend\staticfiles\administration
+
+09/06/2025  11:03 AM    <DIR>          .
+09/06/2025  11:03 AM    <DIR>          ..
+09/06/2025  11:03 AM             3,823 index.js
+09/06/2025  11:03 AM             1,350 login.css
+09/06/2025  11:03 AM               674 login.js
+09/06/2025  11:03 AM             4,117 style.css
+09/06/2025  11:03 AM               829 users_list.js
+               5 File(s)         10,793 bytes
+
      Total Files Listed:
-             110 File(s)        734,314 bytes
-              65 Dir(s)  30,266,376,192 bytes free
+             242 File(s)      2,166,406 bytes
+             110 Dir(s)  30,263,463,936 bytes free
