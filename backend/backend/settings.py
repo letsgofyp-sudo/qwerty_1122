@@ -84,25 +84,6 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 import pymysql
 pymysql.install_as_MySQLdb()
-#  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Ali Raza MySql Database Configuration
-'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lets_go',
-        'USER': 'root',
-        'PASSWORD': '4488',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        },
-    }
-}
-'''
-# ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Fawad Saqlain mySQL Database Configuration
 
 
 DATABASES = {
@@ -120,43 +101,6 @@ DATABASES = {
 }
 
 
-# ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#  TiDB Database Configuration
-'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django_tidb',
-        'NAME': 'lets_go',
-        'USER': 'AF836mRCWsuyEjF.root',
-        'PASSWORD': 'VVUHBWdV8fNksGiH',
-        'HOST': 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com',
-        'PORT': '4000',
-        'OPTIONS': {
-    'charset': 'utf8mb4',
-    'ssl': {
-        'ca': 'E:/one drive/OneDrive - Happy English/course subjects/FYP/FYP-LETS-GO/Source code/backend/backend/isrgrootx1.pem',
-    }
-        },
-    }
-}
-'''
-# ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#  supabase Database Configuration
-'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.izynmuqjxdbemzyfkbms',
-        'PASSWORD': ']=[-p0o9',  # replace with your real password
-        'HOST': 'aws-1-ap-southeast-1.pooler.supabase.com',
-        'PORT': '6543',
-        'OPTIONS': {
-            'sslmode': 'require',
-        },
-    }
-}
-'''
 
 # ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
